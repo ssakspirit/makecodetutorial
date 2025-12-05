@@ -2,9 +2,21 @@
 
 ## Step 1
 
-Here is some text.
+Welcome to your first tutorial! Let's get started.
+
+```blocks
+player.onChat("run", function () {
+
+})
+```
 
 ## Step 2
 
-Congratulations, you did it!
+Great job! You completed the tutorial.
+
+```blocks
+player.onChat("run", function () {
+    player.say("Hello!")
+})
+```
     
