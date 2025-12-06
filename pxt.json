@@ -9,7 +9,10 @@
     },
     "files": [
         "README.md",
-        "tutorials/01-basic-chat/tutorial.md"
+        "tutorial-01-chat.md",
+        "tutorial-02-building.md",
+        "tutorial-03-shapes.md",
+        "tutorial-04-mobs.md"
     ],
     "public": true,
     "targetVersions": {
