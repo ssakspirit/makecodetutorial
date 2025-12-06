@@ -6,7 +6,7 @@
     "dependencies": {
         "core": "*",
         "builder": "*",
-        "building": "github:ssakspirit/Building-extension#v1.5.1"
+        "building": "github:ssakspirit/Building-extension#master"
     },
     "files": [
         "README.md",
