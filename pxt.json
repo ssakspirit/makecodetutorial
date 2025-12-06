@@ -1,6 +1,6 @@
 {
     "name": "my-tutorial",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Custom tutorial for Minecraft",
     "dependencies": {
         "core": "*",
@@ -8,17 +8,12 @@
     },
     "files": [
         "README.md",
-        "main.ts",
-        "test2.md"
+        "main.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": true,
-    "targetVersions": {
-        "target": "1.12.30",
-        "targetId": "minecraft"
-    },
     "supportedTargets": [
         "minecraft"
     ],
