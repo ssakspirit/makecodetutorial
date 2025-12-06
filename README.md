@@ -19,11 +19,10 @@ https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tuto
 codebuilder navigate @p false https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tutorial-01-chat.md
 ```
 
-### 02. Building Extension으로 건축하기
-- Building Extension 사용법
-- ㅁ형 건물 만들기
-- 원형 건물 만들기
-- 다양한 크기와 재료
+### 02. 건축 기초 (Building Basics)
+- 블록 배치하기
+- 블록 채우기
+- 간단한 구조물 만들기
 
 **웹 브라우저:**
 ```
