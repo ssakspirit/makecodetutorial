@@ -1,39 +1,21 @@
 # My Tutorial
 
-This is a custom tutorial for Minecraft Education Edition using MakeCode.
+## Step 1
 
-## Use as Extension
+Welcome to your first tutorial! Let's get started.
 
-This repository can be added as an **extension** in MakeCode.
+```blocks
+player.onChat("run", function () {
 
-* open [https://minecraft.makecode.com/](https://minecraft.makecode.com/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/ssakspirit/makecodetutorial** and import
-
-## Use as Tutorial
-
-To use the tutorial:
-
-```
-#tutorial:https://github.com/ssakspirit/makecodetutorial
+})
 ```
 
-Or in Minecraft Education Edition:
+## Step 2
 
+Great job! You completed the tutorial.
+
+```blocks
+player.onChat("run", function () {
+    player.say("Hello!")
+})
 ```
-/codebuilder navigate @initiator false https://minecraft.makecode.com/#tutorial:https://github.com/ssakspirit/makecodetutorial
-```
-
-## Edit this project
-
-To edit this repository in MakeCode:
-
-* open [https://minecraft.makecode.com/](https://minecraft.makecode.com/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/ssakspirit/makecodetutorial** and click import
-
-#### Metadata (used for search, rendering)
-
-* for PXT/minecraft
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
