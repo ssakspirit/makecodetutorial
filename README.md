@@ -9,20 +9,40 @@ Minecraft Education Edition의 기본 블록만 사용하는 튜토리얼 모음
 - 플레이어에게 메시지 표시
 - 간단한 명령어 만들기
 
+**바로가기:**
+```
+codebuilder navigate @p false https://minecraft.makecode.com/#tutorial:https://github.com/ssakspirit/makecodetutorial/tutorials/01-basic-chat
+```
+
 ### 02. 건축 기초 (Building Basics)
 - 블록 배치하기
 - 블록 채우기
 - 간단한 구조물 만들기
+
+**바로가기:**
+```
+codebuilder navigate @p false https://minecraft.makecode.com/#tutorial:https://github.com/ssakspirit/makecodetutorial/tutorials/02-building-basics
+```
 
 ### 03. 도형 그리기 (Shapes)
 - 원, 선, 사각형 그리기
 - 좌표 계산
 - 복잡한 패턴 만들기
 
+**바로가기:**
+```
+codebuilder navigate @p false https://minecraft.makecode.com/#tutorial:https://github.com/ssakspirit/makecodetutorial/tutorials/03-shapes
+```
+
 ### 04. 몹 생성 (Mobs)
 - 몹 생성하기
 - 몹 종류 선택
 - 여러 몹 동시에 생성
+
+**바로가기:**
+```
+codebuilder navigate @p false https://minecraft.makecode.com/#tutorial:https://github.com/ssakspirit/makecodetutorial/tutorials/04-mobs
+```
 
 ## 🎮 사용 방법
 

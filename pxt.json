@@ -1,0 +1,23 @@
+{
+    "name": "basic-tutorials",
+    "version": "1.0.0",
+    "description": "Minecraft 기본 블록 튜토리얼 모음",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "builder": "*"
+    },
+    "files": [
+        "README.md",
+        "tutorials/01-basic-chat/tutorial.md"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "1.7.25",
+        "targetId": "minecraft"
+    },
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "blocksprj"
+}
