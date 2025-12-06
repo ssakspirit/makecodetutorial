@@ -1,6 +1,6 @@
 {
     "name": "my-tutorial",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Custom tutorial for Minecraft",
     "dependencies": {
         "core": "*",
