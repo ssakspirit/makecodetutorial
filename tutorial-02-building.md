@@ -1,104 +1,132 @@
-# 건축 기초 튜토리얼
+# Building Extension으로 건축하기
 
 ## 소개 @unplugged
 
-블록을 배치하고 건물을 만드는 방법을 배워봅시다!
+Building Extension을 사용하면 복잡한 건물을 쉽게 만들 수 있습니다!
+
+기본 블록으로 만들기 힘든 건물들을 간단하게 만들어봅시다.
 
 ## 단계 1
 
-``||player:on chat command||`` 블록으로 시작합니다.
+먼저 "1"이라고 채팅하면 작은 집을 만들어봅시다.
 
-"블록"이라고 채팅하면 블록을 배치해봅시다.
+``||player:on chat command||`` 블록을 추가하세요.
 
 ```blocks
-player.onChat("블록", function () {
+player.onChat("1", function () {
 
 })
 ```
 
 ## 단계 2
 
-``||blocks:place||`` 블록을 사용하여 플레이어 위치에 블록을 배치합니다.
+``||building:직각 건물 속성 정하기||`` 블록으로 건물의 크기와 재료를 설정합니다.
 
 ```blocks
-player.onChat("블록", function () {
-    blocks.place(GOLD_BLOCK, player.position())
+player.onChat("1", function () {
+    building.직각건물속성정하기(
+        10,
+        10,
+        8,
+        4,
+        0,
+        COBBLESTONE,
+        PLANKS_OAK,
+        LOG_OAK,
+        PLANKS_OAK,
+        BRICK_BLOCK,
+        1,
+        true,
+        GLASS,
+        2,
+        2
+    )
 })
 ```
 
 ## 단계 3
 
-이제 작은 벽을 만들어봅시다.
-
-``||blocks:fill||`` 블록을 사용하면 여러 블록을 한번에 배치할 수 있습니다.
+``||building:ㅁ형 건물 생성||`` 블록으로 건물을 만듭니다!
 
 ```blocks
-player.onChat("벽", function () {
-    blocks.fill(
+player.onChat("1", function () {
+    building.직각건물속성정하기(
+        10,
+        10,
+        8,
+        4,
+        0,
+        COBBLESTONE,
         PLANKS_OAK,
-        pos(0, 0, 0),
-        pos(5, 3, 0),
-        FillOperation.Replace
+        LOG_OAK,
+        PLANKS_OAK,
+        BRICK_BLOCK,
+        1,
+        true,
+        GLASS,
+        2,
+        2
     )
+    building.ㅁ형건물생성()
 })
 ```
 
 ## 단계 4
 
-이제 간단한 집을 만들어봅시다!
-
-``||blocks:fill||``의 Outline 모드를 사용하면 외곽선만 그릴 수 있습니다.
+이제 "2"라고 채팅하면 더 큰 건물을 만들어봅시다!
 
 ```blocks
-player.onChat("집", function () {
-    blocks.fill(
-        PLANKS_OAK,
-        pos(0, 0, 0),
-        pos(5, 3, 5),
-        FillOperation.Outline
+player.onChat("2", function () {
+    building.직각건물속성정하기(
+        20,
+        15,
+        15,
+        5,
+        0,
+        STONE,
+        QUARTZ_BLOCK,
+        STONE_BRICKS,
+        WHITE_CONCRETE,
+        RED_CONCRETE,
+        2,
+        true,
+        GLASS,
+        3,
+        2
     )
-    blocks.fill(
-        COBBLESTONE,
-        pos(0, 0, 0),
-        pos(5, 0, 5),
-        FillOperation.Replace
-    )
+    building.ㅁ형건물생성()
 })
 ```
 
 ## 단계 5
 
-지붕도 추가해봅시다!
+원형 건물도 만들 수 있습니다!
+
+"3"이라고 채팅하면 원형 타워를 만들어봅시다.
 
 ```blocks
-player.onChat("집", function () {
-    blocks.fill(
-        PLANKS_OAK,
-        pos(0, 0, 0),
-        pos(5, 3, 5),
-        FillOperation.Outline
-    )
-    blocks.fill(
+player.onChat("3", function () {
+    building.원형건물속성정하기(
+        8,
+        12,
+        4,
+        0,
         COBBLESTONE,
-        pos(0, 0, 0),
-        pos(5, 0, 5),
-        FillOperation.Replace
+        PLANKS_OAK,
+        STONE_BRICKS,
+        LIGHT_GRAY_CONCRETE,
+        1
     )
-    blocks.fill(
-        BRICK_BLOCK,
-        pos(0, 4, 0),
-        pos(5, 4, 5),
-        FillOperation.Replace
-    )
+    building.원형건물생성()
 })
 ```
 
 ## 완료! @unplugged
 
-축하합니다! 기본 건축 방법을 배웠습니다.
+축하합니다! Building Extension으로 건물 만들기를 배웠습니다!
 
 **시도해볼 것:**
-- 더 큰 집 만들기
-- 다른 재료 사용하기 (STONE, BRICK_BLOCK, GLASS)
-- 창문 추가하기
-- 여러 층 건물 만들기
+- ㄱ형, ㄷ형 건물 만들기
+- 지붕 형태 바꾸기 (삼각형, 피라미드, 돔)
+- 다른 재료 사용하기
+- 크기 조절하기

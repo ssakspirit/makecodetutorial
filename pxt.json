@@ -1,11 +1,12 @@
 {
     "name": "basic-tutorials",
-    "version": "1.0.0",
-    "description": "Minecraft 기본 블록 튜토리얼 모음",
+    "version": "2.0.0",
+    "description": "Minecraft 기본 블록 및 Building Extension 튜토리얼 모음",
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "builder": "*"
+        "builder": "*",
+        "building": "github:ssakspirit/Building-extension#v1.5.1"
     },
     "files": [
         "README.md",

@@ -11,27 +11,28 @@ Minecraft Education Edition의 기본 블록만 사용하는 튜토리얼 모음
 
 **웹 브라우저:**
 ```
-https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tutorial-01-chat
+https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tutorial-01-chat.md
 ```
 
 **커맨드 블록:**
 ```
-codebuilder navigate @p false https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tutorial-01-chat
+codebuilder navigate @p false https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tutorial-01-chat.md
 ```
 
-### 02. 건축 기초 (Building Basics)
-- 블록 배치하기
-- 블록 채우기
-- 간단한 구조물 만들기
+### 02. Building Extension으로 건축하기
+- Building Extension 사용법
+- ㅁ형 건물 만들기
+- 원형 건물 만들기
+- 다양한 크기와 재료
 
 **웹 브라우저:**
 ```
-https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tutorial-02-building
+https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tutorial-02-building.md
 ```
 
 **커맨드 블록:**
 ```
-codebuilder navigate @p false https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tutorial-02-building
+codebuilder navigate @p false https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tutorial-02-building.md
 ```
 
 ### 03. 도형 그리기 (Shapes)
@@ -41,12 +42,12 @@ codebuilder navigate @p false https://minecraft.makecode.com/#tutorial:github:ss
 
 **웹 브라우저:**
 ```
-https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tutorial-03-shapes
+https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tutorial-03-shapes.md
 ```
 
 **커맨드 블록:**
 ```
-codebuilder navigate @p false https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tutorial-03-shapes
+codebuilder navigate @p false https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tutorial-03-shapes.md
 ```
 
 ### 04. 몹 생성 (Mobs)
@@ -56,12 +57,12 @@ codebuilder navigate @p false https://minecraft.makecode.com/#tutorial:github:ss
 
 **웹 브라우저:**
 ```
-https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tutorial-04-mobs
+https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tutorial-04-mobs.md
 ```
 
 **커맨드 블록:**
 ```
-codebuilder navigate @p false https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tutorial-04-mobs
+codebuilder navigate @p false https://minecraft.makecode.com/#tutorial:github:ssakspirit/makecodetutorial/tutorial-04-mobs.md
 ```
 
 ## 🎮 사용 방법
