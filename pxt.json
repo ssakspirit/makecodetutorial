@@ -1,22 +1,18 @@
 {
     "name": "my-tutorial",
-    "version": "0.0.4",
+    "version": "0.1.0",
     "description": "Custom tutorial for Minecraft",
+    "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "builder": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
-        "main.ts",
-        "tutorial.md"
+        "main.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": true,
-    "supportedTargets": [
-        "minecraft"
-    ],
     "preferredEditor": "tsprj"
 }
